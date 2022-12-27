@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DataStructures">
+      <UniqueIdentifier>{2a8ec909-2341-4f50-8e82-322836924a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{160acdbf-f9a7-427f-a2a5-eedd2edc9dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{98d70fef-3a40-4a8d-8db7-64b2773b308f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pathfinding">
+      <UniqueIdentifier>{4f862cb0-c6d5-4678-8595-b16713135736}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Stopwatch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RNG.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryHeap.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="BinomialHeap.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="BrodalQueue.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="FibonacciHeap.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="StrictFibonacciHeap.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Roads.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="PrioQueueFactory.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Dijkstra.h">
+      <Filter>Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Stopwatch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="JustListPrioQueue.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="BoostFibHeap.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="RNG.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="StlBinaryHeap.h">
+      <Filter>DataStructures</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueStabilizer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="vid_t.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
